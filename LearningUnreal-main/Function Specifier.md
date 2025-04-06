@@ -1,0 +1,10 @@
+- `BlueprintCallable`
+	- Can be called from Blueprint Visual Scripts.
+- `BlueprintImplementableEvent`
+	- Can be overriden in Blueprint Visual Scripts.
+- `BlueprintNativeEvent`
+	- Like `BlueprintImplementableEvent`, but with a C++ fallback.
+- `BlueprintPure`.
+	- Causes Visual Script nodes for this function to become an [[Expression Node]] instead of an [[Execution node]].
+- `CallInEditor`
+	- A button for this function is added to the [[Details Panel]].
