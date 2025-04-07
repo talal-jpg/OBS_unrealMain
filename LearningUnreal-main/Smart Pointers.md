@@ -7,7 +7,7 @@ Typically when the (last) smart pointer is destructed.
 Smart pointers convey semantics through the type system.
 A shared pointer signals shared ownership.
 A unique pointer signals single ownership.
-A reference signals non-nullness.
+A reference signalfs non-nullness.
 Smart pointer should typically not be passed as parameters, only if the called function affect ownership in some way.
 Better to pass the actual object as `const &`.
 Smart pointers can point to incomplete types, helps reduce header inclusion.
